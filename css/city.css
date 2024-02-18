@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.city-heading{
+    text-align: center;
+    padding-top: 30px;
+    font-family: fantasy;
+    font-size: 50px;
+    color: #2a2a6e;
+}
+#main{
+    background-color: whitesmoke;
+}
+
+
+/* slide-section */
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 304px;
+    position: relative;
+    margin: auto;
+    margin-top: 51px;
+}
+
+.mySlides img{
+    width: 319px;
+    border-radius: 26px;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/* history-section */
+#history-section{
+    /* border: 2px solid blueviolet; */
+    /* display: flex; */
+    margin: auto;
+    margin: 44px 5px 47px 16px;
+}
+#history-section img{
+    width: 100px;
+    height: 100px;
+}
+#history-section p{
+    /* text-align: center; */
+    margin-left: 4px;
+    
+}
+
+/* stores-secton */
+#stores{
+    /* border: 2px solid burlywood; */
+    margin: 20px;
+    /* width: 100%; */
+    height: 200px;
+}
+.stores-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    /* border: 2px solid brown; */
+    height: 140px;
+}
+
+.city-stores{
+    width: 120px;
+    height: 80px;
+    margin: 0px 18px;
+}
+.city-stores img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.city-stores h4{
+    text-align: center;
+    margin-top: 4px;
+    font-size: small;
+    font-size: 14px;
+    font-family: cursive;
+}
+.city-stores a{
+    color: black;
+}
+
+
+/* reviews-section */
+.reviews-section{
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #bfbfbf ;
+}
+.users-review{
+  border: 2px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin: 6px 12px;
+  background-color: whitesmoke;
+}
+.users-name{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.users-opinion{
+  margin: 2px 10px;
+}
+
+.users-form{
+  margin: 4px 12px;
+  /* border: 2px solid black; */
+}
+.users-form input{
+  border: 1.5px solid black;
+  padding: 6px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 8px;
+}
+.users-form textarea{
+  border: 1.5px solid black;
+  padding:6px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 8px;
+}
+.users-form button{
+  border: 1.5px solid black;
+  padding: 6px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 8px;
+}

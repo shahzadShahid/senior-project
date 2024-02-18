@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/feedback.css">
+    <title>Feedback</title>
+</head>
+
+<body>
+    <!-- Navbar-section -->
+    <div id="navbar">
+        <div id="list1">
+            <Ul id="navbar-list">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="About.html" id="">
+                    <li>About</li>
+                </a>
+                <a href="Feedback.html" id="">
+                    <li>Feedback</li>
+                </a>
+                <a href="" id="">
+                    <li>Contact</li>
+                </a>
+                <div id="list2">
+                    <ul id="login">
+                        <a href="SignUp.html">
+                            <li>SignUp</li>
+                        </a>
+                        <a href="Login.html">
+                            <li>Login</li>
+                        </a>
+                    </ul>
+                </div>
+            </Ul>
+        </div>
+    </div>
+
+    <!-- feedback-form-section -->
+    <div class="feedback-container">
+        <form action="feedback.php" method="post">
+            <div class="form-container">
+                <label for="">First Name</label>
+                <input type="text" name="fname" placeholder="Enter Your First Name" required>
+                <label for="">Last Name</label>
+                <input type="text" name="lname" placeholder="Enter Your Last Name">
+                <label for="">Email</label>
+                <input type="email" name="email" placeholder="Enter Your Email">
+                <label for="">Your Opinion</label>
+                <textarea name="opinion" id="" cols="30" rows="10">Glad to hear from you</textarea>
+                <button class="form-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- footer-section -->
+    <div id="footer">
+        <div id="address-part">
+            <pre>
+                    Sha Inovative Pvt Ltd &copy;
+                    Mohd Habib Hall
+                    AMU, Aligarh
+                </pre>
+        </div>
+        <div class="social-media">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </div>
+</body>
+
+</html>

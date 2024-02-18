@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar section */
+#navbar{
+    width: 100%;
+    height: 35px;
+    width: 100%;
+    background-color: black;
+}
+#navbar-list{
+    display: flex;
+    flex-direction: row;
+    /* margin: 5px; */
+    margin-left: 19px;
+}
+#navbar-list li{
+    list-style: none;
+    margin: 4px;
+    padding: 3px 7px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(134, 103, 103);
+}
+a{
+    color: white;
+}
+
+#login{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#list2{
+    width: 78%;
+}
+
+/* first section */
+#first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 276px;
+    background: url(../img/howrah2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.85;
+}
+#second-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 276px;
+    background: url(../img/india.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.85;
+    overflow: hidden;
+}
+#second-section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 276px;
+    background: url(../img/taj.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.85;
+    overflow: hidden;
+}
+.img-full img{
+    height: 100%;
+}
+
+/* welcome section */
+
+.welcome-section{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.welcome-heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.welcome-desc{
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.welcome-desc img{
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+
+.welcome-about{
+    margin: auto;
+    margin-left: 17px;
+    margin-right: 12px;
+}
+
+
+/* second section */
+#second-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid maroon; */
+    width: 100%;
+    height: 370px;
+    background-color: #ebeaea;
+    /* padding: 10px; */
+}
+#second-section-boxes{
+    display: flex;
+    flex-direction: row;
+    /* height: 500px; */
+}
+.search-bar input{
+    border: 1.5px solid #7b7474;
+    border-radius: 6PX;
+    width: 204px;
+    padding: 6px;
+}
+.city-box{
+    /* border: 2px solid black; */
+    /* padding: 6px; */
+    margin-top: 51px;
+    margin-right: 23px;
+    /* border-radius: 15px; */
+    width: 148px;
+    height: 112px;
+}
+.city-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+/* sponsor-section */
+
+.sponsor-section{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    /* padding: 30px; */
+}
+.sponsors{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+.sponsors img{
+    height: 150px;
+    /* width: 100px; */
+    border-radius: 2px;
+}
+.sponsor-name{
+    text-align: center;
+}
+
+
+/* footer section */
+#footer{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 140px;
+    background-color: #454040; 
+}
+
+#address-part{
+    margin-top: 29px;
+    font-size: larger;
+    font: icon;
+    color: wheat;
+
+}
+.social-media{
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+    align-items: center;
+    width: 85%;
+    height: 86px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+/* utilities */
+.text-center{
+    text-align: center;
+}
+
+
+.primary-heading{
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.secondary-heading{
+    text-align: center;
+    margin-top: 9px;
+    font-size: 20px;
+    font-family: serif;
+    color: #222e2e;
+}
+
+.primary-btn{
+    border: none;
+    padding: 6px;
+    width: 84px;
+    margin-left: 11px;
+    border-radius: 23px;
+    color: #4c403b;
+    font-family: fantasy;
+    background-color: #b0d1ee;
+}
+.primary-btn:hover{
+    cursor: pointer;
+    background-color: white;
+}
